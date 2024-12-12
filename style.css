@@ -18,13 +18,20 @@
   font-size: 15px;
 }
 
-h1 {
-  color: rgb(0, 0, 0);
+h2 {
   font-size: 50px;
+}
+.collor-text {
+  color: white;
+}
+.collor-p {
+  color: white;
+
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .sub-titulo {
-  color: rgb(0, 0, 0);
   font-size: 25px;
   font-weight: 500;
 }
@@ -48,6 +55,7 @@ video {
   left: 0;
   z-index: -1;
   object-fit: cover;
+  filter: brightness(100%);
 }
 .model-x,
 .model-s,
